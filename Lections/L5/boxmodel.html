@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Box_Model</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            width: 200px;
+            height: 200px;
+            border: 1px solid red;
+            padding: 5px;
+            box-sizing: border-box;
+
+        }
+        span{
+            display: inline-block;
+            height: 200px;
+            width: 200px;
+            border: 1px solid blue;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- <div style="display: none;">Block 1</div>
+    <div style="visibility: hidden;">Block 2</div> -->
+    <!-- <span>block element</span>
+    <span class="inline-block">inline element</span>
+    <span>inline element</span>
+    <span class="inline-block">inline element</span> -->
+
+    <div class="width-25">block1</div>
+    <div class="width-25">block2</div>
+    <div class="width-25">block3</div>
+    <div class="width-25">block4</div>
+</body>
+</html>
