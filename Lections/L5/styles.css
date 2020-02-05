@@ -1,0 +1,21 @@
+ html, body, a {
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color:#aaa;
+        }
+
+        header a {
+            color: inherit
+        }
+
+        footer {
+            background-color: #aaa;
+            color: #333;
+        }
+
+        h2 {
+            color: orange;
+        }
