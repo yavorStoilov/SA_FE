@@ -7,10 +7,43 @@
     <link rel="stylesheet" href="style.css">
     <title>Calculator</title>
 </head>
+<style>
+	body{
+		margin: 0; /*preporychitelno */
+		color:gray;
+		padding: 0;
+	}
+	*{
+		margin:0;
+	}
+	* /*vsicho vytre, ne samo elementa */
+	a{
+		color:inherit;
+		text-decoration: none;
+	}
+	input{
+		border: 1 px solid pink !important;
+	}
+	table{
+		border-collapse: collapse; /* da nqma zastypvane*/	
+	}
+	
+	input[type="button"]
+	{
+		color:white;
+		background: grey;
+		border: 1 px solid black;
+		
+	}
+	form #output input[type="number"]{
+		border: 1px solid blue;
+	}
+</style>
 <body>
+   <a href="#">Swift Academy</a>
     <section>
-        <form id="form">
-            <input type="text" name="" id="output" disabled value='25'>
+        <form id="output">
+            <input type="number" name="output"  disabled value='25'>
         </form>
             <table>
                 <tr>
